@@ -215,3 +215,22 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width: 980px){
+  .container{
+    width: 800px;
+  }
+
+}
+
+@media screen and (max-width: 768px){
+  .container{
+    width: 600px;
+  }
+
+  @media screen and (max-width: 600px){
+    .container{
+      width: 300px;
+    }
+  
+}
